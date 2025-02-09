@@ -68,11 +68,11 @@ html, body {
 }
 
 body {
-  background: #111111;
+  background: #125da7;
   font-family: "librebaskerville-regular", serif;
   font-size: 1.6rem;
   line-height: 3rem;
-  color: #353535;
+  color: #125da7;
   margin: 0;
   padding: 0;
 }
@@ -81,7 +81,7 @@ body {
  * links - (_document-setup) 
  * ------------------------------------------------------------------- */
 a, a:visited {
-  color: #07617d;
+  color: #247dd6;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -90,7 +90,7 @@ a, a:visited {
 }
 
 a:hover, a:focus {
-  color: #000000;
+  color: #125da7;
 }
 
 
@@ -1797,7 +1797,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: #125da7;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -2015,7 +2015,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 0;
 }
 #portfolio .intro-wrap {
-  padding: 15rem 0 21rem;
+  padding: 15rem 0 0rem;
   background: #111111;
 }
 #portfolio .section-intro h3 {
@@ -2506,22 +2506,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-color: #000000;
 }
 
-
-/* ===================================================================
- *  16. contact - (_layout.scss)
- *
- * ------------------------------------------------------------------- */
-#contact {
-  background-color: #111111;
-  background-image: url(../images/contact-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  padding: 12rem 0 12rem;
-  position: relative;
-}
 #contact .overlay {
   position: absolute;
   top: 0;
@@ -2842,6 +2826,7 @@ footer h4.h05::after {
 .footer-main {
   padding-top: 9.6rem;
   padding-bottom: 3rem;
+  background-color: rgb(19, 19, 19);
 }
 .footer-main ul {
   font-size: 1.5rem;
@@ -2902,6 +2887,7 @@ footer h4.h05::after {
  * --------------------------------- */
 .footer-bottom {
   margin-top: 3rem;
+  color: rgb(0, 0, 0);
   text-align: center;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.4rem;
